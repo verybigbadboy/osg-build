@@ -103,7 +103,7 @@ public:
                 itr != ev->getEvents().end();
                 ++itr)
             {
-                    handleWithCheckAgainstIgnoreHandledEventsMask(*(*itr), *(ev->getActionAdapter()), node, nv);
+//                    handleWithCheckAgainstIgnoreHandledEventsMask(*(*itr), *(ev->getActionAdapter()), node, nv);
             }
         }
         traverse(node, nv);
@@ -212,7 +212,7 @@ public:
                 itr != ev->getEvents().end();
                 ++itr)
             {
-                    handleWithCheckAgainstIgnoreHandledEventsMask(*(*itr), *(ev->getActionAdapter()), node, nv);
+//                    handleWithCheckAgainstIgnoreHandledEventsMask(*(*itr), *(ev->getActionAdapter()), node, nv);
             }
         }
         traverse(node, nv);
