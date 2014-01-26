@@ -58,6 +58,8 @@ if(MSVC)
     )
 endif(MSVC)
 
-ADD_EXECUTABLE(test main.cpp)
+SET(sources main.cpp)
+ADD_MSVC_PRECOMPILED_HEADER("pch.h" "pch.cpp" sources)
+ADD_EXECUTABLE(test ${sources})
 
 TARGET_LINK_LIBRARIES(test ${OSGWORKS_LIBRARIES} ${OSG_LIBRARIES} ${BULLET_LIBRARIES}  ${OSGBULLET_LIBRARIES})

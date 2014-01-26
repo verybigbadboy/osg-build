@@ -21,3 +21,4 @@ SET PATH=%PATH%;%BUILD_ROOT_DIR%\build\osgBullet\lib
 SET PATH=%PATH%;%BUILD_ROOT_DIR%\build\osgBullet\bin\Debug
 SET PATH=%PATH%;%BUILD_ROOT_DIR%\build\osgBullet\bin\Release
 
+SET OSG_FILE_PATH=%BUILD_ROOT_DIR%\osgBullet\data
